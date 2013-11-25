@@ -1,0 +1,34 @@
+{
+  "sources": {
+    "new_application": {
+      "path": "."
+    },
+    "mysql": {
+      "locked_version": "4.0.6"
+    },
+    "nginx": {
+      "locked_version": "0.101.6"
+    },
+    "openssl": {
+      "locked_version": "1.1.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.2"
+    },
+    "runit": {
+      "locked_version": "1.4.0"
+    },
+    "yum": {
+      "locked_version": "2.4.2"
+    },
+    "bluepill": {
+      "locked_version": "2.3.0"
+    },
+    "rsyslog": {
+      "locked_version": "1.9.0"
+    },
+    "ohai": {
+      "locked_version": "1.0.2"
+    }
+  }
+}

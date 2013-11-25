@@ -1,0 +1,33 @@
+
+{
+	"name": "My Cookbooks",
+	"description": "Maintain my aws instances",
+
+	// Default run list
+
+	// "run_list": [
+	// 	"recipe[timezone]",
+	// 	"recipe[users]",
+	// 	"recipe[nginx]"
+	// ],
+
+	"run_list": [
+		"recipe[nginx-2.0.4]"
+	],
+
+
+	"timezone": {
+		"zone" : "UTC"
+	},
+	// info on user properties can be found in users -> attributes -> default.rb
+	"users": {
+		"add" : {
+			"testuser": {
+				"password_hash": "",
+				"groups": ["nginx"],
+				"ssh_keys": ["ssh-rsa"]
+			}
+		}
+	}
+
+}
