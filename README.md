@@ -1,4 +1,4 @@
 chef_solo
 =========
 
-cookbooks to maintain aws infrastructure
+Cookbooks to maintain aws infrastructure
