@@ -1,5 +1,0 @@
-site :opscode
-
-metadata
-cookbook 'mysql'
-cookbook 'nginx', '~> 0.101.5'
