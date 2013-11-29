@@ -1,4 +1,8 @@
 chef_solo
 =========
 
-Cookbooks to maintain aws infrastructure
+My own cookbooks.
+
+Enhanced why run feature to dry run.
+=========
+
